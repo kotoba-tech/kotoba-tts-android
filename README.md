@@ -73,32 +73,3 @@ class TTSExample {
     }
 }
 ```
-
-# Kotoba TTS Android Demo App
-
-A Demo Android application using the Kotoba TTS library.
-
-## Setup
-
-1. Create a GitHub Personal Access Token with `read:packages` permission
-2. Add your GitHub credentials to `local.properties`:
-   ```
-   gpr.user=YOUR_GITHUB_USERNAME
-   gpr.key=YOUR_GITHUB_PERSONAL_ACCESS_TOKEN
-   ```
-3. Add your model URLs to `local.properties`:
-   ```
-   MODEL_1_URL=https://.../model1.gguf
-   MODEL_2_URL=https://.../model2.gguf
-   DECODER_URL=https://.../decoder.gguf
-   ```
-4. Add auth token to `local.properties` if needed:
-   ```
-   AUTH_TOKEN=YOUR_AUTH_TOKEN
-   ```
-
-## Dependencies
-
-This project uses the Kotoba TTS library from GitHub Packages:
-- Package: `com.kotoba:kotoba-tts-android:1.0.0`
-- Repository: https://github.com/kotoba-tech/kotoba-tts-android/packages
